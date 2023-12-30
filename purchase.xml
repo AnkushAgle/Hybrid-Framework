@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.utility.Listener"></listener>
+	</listeners>
+	<parameter name="Browser" value="chrome"></parameter>
+	<test thread-count="5" name="Test">
+		<classes>
+			   <class name="purchase.LabourRateContractEntry" />
+				<class name="purchase.LabourRateContractAMD" />
+				<class name="purchase.IndentEntry"/>
+				<class name="purchase.POAmendmentNew"/>
+
+		
+		</classes>
+		<!--
+			
+	
+		    <class name="purchase.LabourRateContractEntry" />
+			
+		
+			<include name="Login" />
+		//			<include name="POI007" />
+		
+		<class name="purchase.PO_POamendement_SJO"/>
+		
+	<include name="INDENT004" />
+					<include name="POAMI001" />
+		
+		<include name="POI007" />
+		<include name="INDENT004" />
+				
+		<class name="purchase.POAmendmentNew">
+				<methods>
+					<include name="Login" />
+					<include name="POAMD002" />
+					<include name="POAMD002EDIT" />
+				</methods>
+			</class>
+		
+			<include name="INDENT003" />	
+		
+		
+			
+			<classes>
+			<class name="purchase.IndentEntry">
+				<methods>
+					<include name="Login" />
+					<include name="INDENT003" />
+				</methods>
+			</class>  
+			  
+				    <class name="purchase.pomaintenancenew"/>
+		
+			      <class name="purchase.pomaintenancenewindent"/>
+				<class name="purchase.pomaintenancenew">
+				<methods>
+					<include name="Login" />
+					<include name="Pod001" />
+				</methods>
+			</class>	
+			<class name="purchase.pomaintenancenewindent"/>
+			   <class name="purchase.pomaintenancenew"/>
+			<class name="purchase.pomaintenancenew">
+				<methods>
+					<include name="POD004" />
+				</methods>
+			</class>
+			
+			 <class name="purchase.pomaintenancenewindent"/>
+			   <class name="purchase.pomaintenancenew"/>
+			      <class name="purchase.pomaintenancenew">
+				<methods>
+						<class name="purchase.pomaintenancenewindent"/>
+			   <class name="purchase.pomaintenancenew"/>	
+					<include name="POI001" />
+				<include name="POD002" />
+				<include name="POD003" /> 	
+				</methods>
+			</class> 	
+				-->
+		<!-- 
+       <class name="purchase.pomaintenancenewindent"/>
+    	 <class name="purchase.Intententry"/>
+	  <class name="purchase.pomaintenancedirect"/>  -->
+	</test>
+</suite> <!--   
+
+
+
+//Generation of Po + 
+
+
+
+<class name="purchase.IndentEntry">
+				<methods>
+					<include name="Login" />
+					  <include name="INDENT002" />
+				</methods>
+			</class> 
+		<class name="purchase.pomaintenancenewindent">
+				<methods>
+					<include name="POI003" />
+				</methods>
+			</class> 
+			
+			
+						
+	// Generation of po + indent for two Items 
+	
+			
+			<classes>
+			<class name="purchase.IndentEntry">
+				<methods>
+					<include name="Login" />
+					<include name="INDENT003" />
+				</methods>
+			</class>
+			<class name="purchase.pomaintenancenewindent">
+				<methods>
+					<include name="POI004" />
+				</methods>
+			</class>
+		</classes>
+			
+	po Amendment 
+	
+		<class name="purchase.POAmendmentNew">
+				<methods>
+					<include name="Login" />
+					<include name="POAMI001" />
+				</methods>
+			</class> 			
+ -->
+<!--<class name="purchase.Indent_Po_Poamendment">
+				<methods>
+					<include name="Login" />
+					<include name="INDENT004" />
+					<include name="POI007" />
+					<include name="POAMI002" />
+				</methods>
+			</class> 
+			
+			
+			
+			
+				<class name="purchase.IndentEntry">
+				<methods>
+					<include name="Login" />
+					<include name="INDENT003" />
+				</methods>
+			</class>
+			<class name="purchase.pomaintenancenewindent">
+				<methods>
+					<include name="POI004" />
+				</methods>
+			</class>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			-->

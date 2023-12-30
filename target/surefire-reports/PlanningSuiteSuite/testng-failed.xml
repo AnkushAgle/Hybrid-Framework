@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PlanningSuiteSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.utility.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="planning.DeAllocation">
+        <methods>
+          <include name="DeallocationAS"/>
+          <include name="BM"/>
+          <include name="AM"/>
+          <include name="DeallocationMk"/>
+        </methods>
+      </class> <!-- planning.DeAllocation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [PlanningSuiteSuite] -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.utility.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="purchase.LabourRateContractAMD">
+        <methods>
+          <include name="BM"/>
+          <include name="AM"/>
+          <include name="beforemethod"/>
+          <include name="LRCAMD002"/>
+          <include name="Aftermethod"/>
+          <include name="LRCAMD001"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- purchase.LabourRateContractAMD -->
+      <class name="purchase.LabourRateContractEntry">
+        <methods>
+          <include name="BM"/>
+          <include name="AM"/>
+          <include name="beforemethod"/>
+          <include name="LRC002"/>
+          <include name="Aftermethod"/>
+        </methods>
+      </class> <!-- purchase.LabourRateContractEntry -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
