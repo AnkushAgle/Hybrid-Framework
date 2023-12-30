@@ -24,6 +24,10 @@ public class BaseClass {
 	@BeforeTest
 	
 	public void BM(String Browser) throws Exception {
+		
+		// We have Hradvode Browser Name On the Date AND Time 30/12/2023
+		
+		Browser ="Chrome";
 			ConfigDataProvider config=new ConfigDataProvider();
 		
 	 	
