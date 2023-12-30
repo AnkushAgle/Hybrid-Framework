@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.utility.Listener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+	   <parameter name="Browser" value="chrome"></parameter>
+    <classes>
+      <class name="material.itemmstvaldation"> 
+       <methods>
+        <include name="POD001" />
+      </methods>
+        </class>
+    
+     <!--
+       <class name="material.Uploadimg"/>
+      <class name="material.Test_00"/>
+       <class name="material.Test_00"/>   
+       <class name="material.fouritemadd"/>
+         <class name="material.itemmstvaldation"/> 
+     
+     
+      <class name="material.fouritemadd"/>
+     </class>class>
+     
+       --> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
