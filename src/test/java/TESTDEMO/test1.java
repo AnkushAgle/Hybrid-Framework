@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import com.utility.ExcelReader;
 import com.utility.Library;
 
-import UTILITY.BaseClass;
+import common.BaseClass;
 
 public class test1 extends BaseClass{
 	
